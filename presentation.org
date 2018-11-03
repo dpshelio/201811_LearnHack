@@ -1,0 +1,139 @@
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+REVEAL_MARGIN: -0.3
+#+REVEAL_EXTRA_CSS: personal.css
+#+Title: Lessons from the Open Source Software communities @@html:<br>@@ (and research software)
+#+Email: @dpshelio
+#+OPTIONS: toc:nil num:0 timestamp:nil
+#+MACRO: imglnk @@html:<a href="$1"><img width="100px" src="$2"></a>@@
+#+EXCLUDE_TAGS: hide
+
+* Introduction
+** Who am I?
+ #+ATTR_REVEAL: :frag roll-in
+ #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+  - I was a researcher
+  - I'm now a RSD
+  - I love teaching
+ #+REVEAL_HTML: </div>
+
+ #+ATTR_REVEAL: :frag roll-in
+ #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+  - OpenAstronomy / SunPy (open source)
+  - Caprentries (teaching network)
+  - Sunspotter (citizen science)
+ #+REVEAL_HTML: </div>
+
+ #+BEGIN_NOTES
+  So this have taught me how to improve many things!!
+  Why relevant to Open Education!!??  Mentionn in the title, then reiterate here!
+ #+END_NOTES
+
+** Problems
+
+ #+ATTR_REVEAL: :frag roll-in
+ #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+ *For Teachers*
+
+  - A place to share
+  - Get recognition
+  - Get contributors
+ #+REVEAL_HTML: </div>
+
+ #+ATTR_REVEAL: :frag roll-in
+ #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+ *For Learners*
+
+  - Find material and trust it!
+  - Know the material is still being maintained!
+  - Be able to contribute back!
+ #+REVEAL_HTML: </div>
+
+ #+BEGIN_NOTES
+  - Where to put the material they wish to share, get acknowledge and help from others to improve the material.
+  - Imagine yourself as an app consumer on google play / appstore.
+ #+END_NOTES
+
+* Open Source Software
+ #+BEGIN_NOTES
+ - Ask for Open Source software examples
+ #+END_NOTES
+** Some examples
+   [[[[http://belfoss.eeecs.qub.ac.uk/wp-content/uploads/2015/08/foss_logos.jpg]]]]
+** OSS vs Research software
+ #+ATTR_REVEAL: :frag roll-in
+ #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+ *OSS*
+
+  - To be reused
+  - Repositories
+  - simple to contribute
+ #+REVEAL_HTML: </div>
+
+ #+ATTR_REVEAL: :frag roll-in
+ #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+ *Research*
+
+  - Single use (many claim so!)
+  - Some link on a paper
+  - contribute back?
+ #+REVEAL_HTML: </div>
+
+ #+BEGIN_NOTES
+  - product for people to use and reuse
+  - The software is available somewhere vs the link is unreachable, is dead!
+  - OSS: simple, an email with a patch,
+    Contribute back? while being a phd student you don't think you can improve what others created.
+    if you do, you may send a "patch" as a whole new zip file. The owner... may not have the interest
+    or update their website.
+ #+END_NOTES
+** GitHub: open source software more open!
+   [[https://github.com/ucl/rsd-engineeringcourse/][RSD engineering]] course material.
+#+BEGIN_NOTES
+   - software repository
+   - pull request button
+   - fork
+   - modify
+   - review
+   - merge
+#+END_NOTES
+** Metrics in ...
+*** open source
+
+    - Downloads (but GH doesn't give you the number).
+    - Forks
+    - Stars
+    - Contributors
+*** Research software
+    - papers and citations
+    - publish software as such ([[https://zenodo.org/][Zenodo]]/[[https://figshare.com/][Figshare]]) and [[https://citation-file-format.github.io/][Citation File Format]].
+* OER
+** Impact
+*** Downloads
+      - self-study (1 download = 1 person)
+      - delivery (1 download > 30 people)
+      - bots (1 download = 0 people)
+#+REVEAL: split
+*** Contributors
+    Make it easy for people to contribute (and get recognition).
+    - No PDF
+    - Share sources! not only final product. E.g., videos.
+#+REVEAL: split
+*** Remix
+    Make it easy for people to remix and let the source know!
+    - mix material
+    - produce translations
+Value added to your programme! Network size! adds value!
+More users => How? make it accessible to others to modify. PDF? No!
+Help them to get to that level!
+** How?
+   - Create a new "social" network to include these requirements
+   - reuse what exists and provide mechanisms to help creators to use it.
+     - [[https://github.com/ucl/rsd-engineeringcourse/][GitHub]], [[https://gitlab.com/][gitlab]], [[http://bitbucket.org/][bitbucket]]
+     - [[https://en.wikiversity.org/wiki/Wikiversity:Main_Page][Wikiversity]], [[https://en.wikibooks.org/wiki/Main_Page][wikibooks]]
+     - [[https://osf.io/][Open Science Framework]]
+     - [[https://clara.io][clara.io]] (3d models, e.g. [[https://clara.io/view/d26b7f2f-d412-4bcc-b16a-b1b513c8e80f][jupiter]])
+
+#+BEGIN_NOTES
+- new platform, who has access to download and upload? how can we help back?
+-
+#+END_NOTES
