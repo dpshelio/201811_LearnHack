@@ -4,19 +4,26 @@
 #+Title: Lessons from the Open Source Software communities @@html:<br>@@ (and research software)
 #+Email: @dpshelio
 #+OPTIONS: toc:nil num:0 timestamp:nil
-#+MACRO: imglnk @@html:<a href="$1"><img width="100px" src="$2"></a>@@
+#+MACRO: imglnk @@html:<a href="$1"><img width="50px" src="$2"></a>@@
+#+MACRO: smlimg @@html:<img width="125px" src"$1">@@
 #+EXCLUDE_TAGS: hide
 
 * Introduction
 ** Who am I?
- #+ATTR_REVEAL: :frag roll-in
+  :PROPERTIES:
+  :reveal_background: #4c4cd9
+  :END:
+
+*David*
+
+{{{imglnk(https://github.com/dpshelio/, https://image.flaticon.com/icons/svg/25/25231.svg)}}} @dpshelio - {{{imglnk(https://github.com/dpshelio/, http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/social-twitter-icon.png)}}} @dvdgc13
+
  #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
   - I was a researcher
   - I'm now a RSD
   - I love teaching
  #+REVEAL_HTML: </div>
 
- #+ATTR_REVEAL: :frag roll-in
  #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
   - OpenAstronomy / SunPy (open source)
   - Caprentries (teaching network)
@@ -58,7 +65,7 @@
  - Ask for Open Source software examples
  #+END_NOTES
 ** Some examples
-   [[[[http://belfoss.eeecs.qub.ac.uk/wp-content/uploads/2015/08/foss_logos.jpg]]]]
+   [[http://belfoss.eeecs.qub.ac.uk/wp-content/uploads/2015/08/foss_logos.jpg]]
 ** OSS vs Research software
  #+ATTR_REVEAL: :frag roll-in
  #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
@@ -112,19 +119,19 @@
       - self-study (1 download = 1 person)
       - delivery (1 download > 30 people)
       - bots (1 download = 0 people)
-#+REVEAL: split
 *** Contributors
     Make it easy for people to contribute (and get recognition).
     - No PDF
     - Share sources! not only final product. E.g., videos.
-#+REVEAL: split
 *** Remix
     Make it easy for people to remix and let the source know!
-    - mix material
-    - produce translations
-Value added to your programme! Network size! adds value!
+      - mix material
+      - produce translations
+#+BEGIN_NOTES
+VALUE added to your programme! Network size! adds value!
 More users => How? make it accessible to others to modify. PDF? No!
 Help them to get to that level!
+#+END_NOTES
 ** How?
    - Create a new "social" network to include these requirements
    - reuse what exists and provide mechanisms to help creators to use it.
