@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Lessons from the Open Source Software communities <br> (and research software)</title>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/moon.css" id="theme"/>
+
+<link rel="stylesheet" href="personal.css"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/reveal.js/3.0.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Lessons from the Open Source Software communities <br> (and research software)</h1>
+</section>
+
+<section>
+<section id="slide-orgac65426">
+<h2 id="orgac65426">Introduction</h2>
+<div class="outline-text-2" id="text-orgac65426">
+</div>
+</section>
+<section id="slide-org30ad1d7" data-background="#4c4cd9">
+<h3 id="org30ad1d7">Who am I?</h3>
+<p>
+<b>David</b>
+</p>
+
+<p>
+<a href="https://github.com/dpshelio/"><img width="50px" src=" https://image.flaticon.com/icons/svg/25/25231.svg"></a> @dpshelio - <a href="https://github.com/dpshelio/"><img width="50px" src=" http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/social-twitter-icon.png"></a> @dvdgc13
+</p>
+
+<div class="column" style="float:left; width: 50%">
+<ul>
+<li>I was a researcher</li>
+<li>I'm now a RSD</li>
+<li>I love teaching</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+<ul>
+<li>OpenAstronomy / SunPy (open source)</li>
+<li>Caprentries (teaching network)</li>
+<li>Sunspotter (citizen science)</li>
+
+</ul>
+</div>
+
+<aside class="notes">
+<p>
+So this have taught me how to improve many things!!
+Why relevant to Open Education!!??  Mentionn in the title, then reiterate here!
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org6c25036">
+<h3 id="org6c25036">Problems</h3>
+<div class="column" style="float:left; width: 50%">
+<p>
+<b>For Teachers</b>
+</p>
+
+<ul>
+<li>A place to share</li>
+<li>Get recognition</li>
+<li>Get contributors</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+<p>
+<b>For Learners</b>
+</p>
+
+<ul>
+<li>Find material and trust it!</li>
+<li>Know the material is still being maintained!</li>
+<li>Be able to contribute back!</li>
+
+</ul>
+</div>
+
+<aside class="notes">
+<ul>
+<li>Where to put the material they wish to share, get acknowledge and help from others to improve the material.</li>
+<li>Imagine yourself as an app consumer on google play / appstore.</li>
+
+</ul>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-org1086c98">
+<h2 id="org1086c98">Open Source Software</h2>
+<aside class="notes">
+<ul>
+<li>Ask for Open Source software examples</li>
+
+</ul>
+
+</aside>
+</section>
+<section id="slide-org024d757">
+<h3 id="org024d757">Some examples</h3>
+
+<div class="figure">
+<p><img src="http://belfoss.eeecs.qub.ac.uk/wp-content/uploads/2015/08/foss_logos.jpg" alt="foss_logos.jpg" />
+</p>
+</div>
+</section>
+<section id="slide-org19fe7e6">
+<h3 id="org19fe7e6">OSS vs Research software</h3>
+<div class="column" style="float:left; width: 50%">
+<p>
+<b>OSS</b>
+</p>
+
+<ul>
+<li>To be reused</li>
+<li>Repositories</li>
+<li>simple to contribute</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+<p>
+<b>Research</b>
+</p>
+
+<ul>
+<li>Single use (many claim so!)</li>
+<li>Some link on a paper</li>
+<li>contribute back?</li>
+
+</ul>
+</div>
+
+<aside class="notes">
+<ul>
+<li>product for people to use and reuse</li>
+<li>The software is available somewhere vs the link is unreachable, is dead!</li>
+<li>OSS: simple, an email with a patch,
+Contribute back? while being a phd student you don't think you can improve what others created.
+if you do, you may send a "patch" as a whole new zip file. The owner&#x2026; may not have the interest
+or update their website.</li>
+
+</ul>
+
+</aside>
+</section>
+<section id="slide-org37b2996">
+<h3 id="org37b2996">GitHub: open source software more open!</h3>
+<p>
+<a href="https://github.com/ucl/rsd-engineeringcourse/">RSD engineering</a> course material.
+</p>
+<aside class="notes">
+<ul>
+<li>software repository</li>
+<li>pull request button</li>
+<li>fork</li>
+<li>modify</li>
+<li>review</li>
+<li>merge</li>
+
+</ul>
+
+</aside>
+</section>
+<section id="slide-org3e6b4eb">
+<h3 id="org3e6b4eb">Metrics in &#x2026;</h3>
+<div class="outline-text-3" id="text-org3e6b4eb">
+</div>
+</section>
+<section id="slide-org5d8dca8">
+<h4 id="org5d8dca8">open source</h4>
+<ul>
+<li>Downloads (but GH doesn't give you the number).</li>
+<li>Forks</li>
+<li>Stars</li>
+<li>Contributors</li>
+
+</ul>
+</section>
+<section id="slide-orgdf86f20">
+<h4 id="orgdf86f20">Research software</h4>
+<ul>
+<li>papers and citations</li>
+<li>publish software as such (<a href="https://zenodo.org/">Zenodo</a>/<a href="https://figshare.com/">Figshare</a>) and <a href="https://citation-file-format.github.io/">Citation File Format</a>.</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org48af026">
+<h2 id="org48af026">OER</h2>
+<div class="outline-text-2" id="text-org48af026">
+</div>
+</section>
+<section id="slide-org21ae22c">
+<h3 id="org21ae22c">Impact</h3>
+<div class="outline-text-3" id="text-org21ae22c">
+</div>
+</section>
+<section id="slide-orge7c6875">
+<h4 id="orge7c6875">Downloads</h4>
+<ul>
+<li>self-study (1 download = 1 person)</li>
+<li>delivery (1 download &gt; 30 people)</li>
+<li>bots (1 download = 0 people)</li>
+
+</ul>
+</section>
+<section id="slide-orgfee6d6f">
+<h4 id="orgfee6d6f">Contributors</h4>
+<p>
+Make it easy for people to contribute (and get recognition).
+</p>
+<ul>
+<li>No PDF</li>
+<li>Share sources! not only final product. E.g., videos.</li>
+
+</ul>
+</section>
+<section id="slide-org21b4780">
+<h4 id="org21b4780">Remix</h4>
+<p>
+Make it easy for people to remix and let the source know!
+</p>
+<ul>
+<li>mix material</li>
+<li>produce translations</li>
+
+</ul>
+<aside class="notes">
+<p>
+VALUE added to your programme! Network size! adds value!
+More users =&gt; How? make it accessible to others to modify. PDF? No!
+Help them to get to that level!
+</p>
+
+</aside>
+</section>
+<section id="slide-org484f4ed">
+<h3 id="org484f4ed">How?</h3>
+<ul>
+<li>Create a new "social" network to include these requirements</li>
+<li>reuse what exists and provide mechanisms to help creators to use it.
+<ul>
+<li><a href="https://github.com/ucl/rsd-engineeringcourse/">GitHub</a>, <a href="https://gitlab.com/">gitlab</a>, <a href="http://bitbucket.org/">bitbucket</a></li>
+<li><a href="https://en.wikiversity.org/wiki/Wikiversity:Main_Page">Wikiversity</a>, <a href="https://en.wikibooks.org/wiki/Main_Page">wikibooks</a></li>
+<li><a href="https://osf.io/">Open Science Framework</a></li>
+<li><a href="https://clara.io">clara.io</a> (3d models, e.g. <a href="https://clara.io/view/d26b7f2f-d412-4bcc-b16a-b1b513c8e80f">jupiter</a>)</li>
+
+</ul></li>
+
+</ul>
+
+<aside class="notes">
+<ul>
+<li>new platform, who has access to download and upload? how can we help back?</li>
+<li></li>
+
+</ul>
+
+</aside>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/head.min.js"></script>
+<script src="https://cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
